@@ -46,41 +46,48 @@
         <div class="row">
             <div class="col-md-6" id="dealer">
                 <div class="row">
-                        <h3>Dealer's #:</h3>
+                    <h3>Dealer's #:</h3>
                 </div>
                 <div class="row" id='dealerNum'>
 
                 </div>
             </div>
             <div class="col-md-6" id="win-loss">
-                <h3>Wins:</h3>
-                <h3>Losses:</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Wins:</h3>
+                    </div>
+                    <div class="col-md-4" id='wins'></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Losses:</h3>
+                    </div>
+                    <div class="col-md-4" id='losses'></div>
+                </div>
             </div>
         </div>
         <div class="row buttons">
-            <div class="col-md-3" id="blue">
-                <button type="reset"><img src="./assets/images/blue-crystal-md.png" width="100%"></button>
-            </div>
-            <div class="col-md-3" id="red">
-                <button type="reset"><img src="./assets/images/red-crystal.jpg" width="100%"></button>
-            </div>
-            <div class="col-md-3" id="yellow">
-                <button type="reset"><img src="./assets/images/yellow-crystal.jpg" width="100%"></button>
+            <div class="col-md-3">
+                <button type="reset" ><img src="./assets/images/blue-crystal-md.png" width="100%" id='blue'></button>
             </div>
             <div class="col-md-3">
-                <button type="reset"><img src="./assets/images/Green-crystal.png" width="100%"></button>
+                <button type="reset"><img src="./assets/images/red-crystal.jpg" width="100%" id="red"></button>
+            </div>
+            <div class="col-md-3">
+                <button type="reset"><img src="./assets/images/yellow-crystal.jpg" width="100%" id="yellow"></button>
+            </div>
+            <div class="col-md-3">
+                <button type="reset"><img src="./assets/images/Green-crystal.png" width="100%" id="green"></button>
             </div>
         </div>
         <div class="row" id="score">
             <div class="col-md-4">
                 <H2>Total Score:</H2>
             </div>
+            <div class="col-md-4" id='display'></div>
         </div>
-        <div class="row" id="display">
-            <div class="col-md-4">
-                <br>
-            </div>
-        </div>
+
     </div>
 </body>
 
