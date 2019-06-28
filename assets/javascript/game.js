@@ -32,7 +32,7 @@ $(document).ready(function () {
     function reset() {
         dealer = Math.floor(Math.random() * 101 + 19);
 
-        $('dealerNum').html(dealer);
+        $('#dealerNum').html(dealer);
         num1 = Math.floor(Math.random() * 11 + 1)
         num2 = Math.floor(Math.random() * 11 + 1)
         num3 = Math.floor(Math.random() * 11 + 1)
