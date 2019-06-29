@@ -8,10 +8,13 @@ body {
 }
 #score {
     background-color: blanchedalmond;
+    font-size: 100px;
 }
 #win-loss {
     background-color: blanchedalmond;
 }
 #dealer {
-    background-color: bisque
+    background-color: bisque;
+    font-size: 100px;
+    
 }
